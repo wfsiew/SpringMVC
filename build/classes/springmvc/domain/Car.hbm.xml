@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="springmvc.domain.Car" table="car">
+		<id name="id" type="int" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="make" column="make" type="string" />
+		<property name="model" column="model" type="string" />
+		<property name="year" column="year" type="int" />
+		<property name="doors" column="doors" type="int" />
+		<property name="colour" column="colour" type="string" />
+		<property name="price" column="price" type="double" />
+	</class>
+</hibernate-mapping>

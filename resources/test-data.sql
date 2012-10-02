@@ -1,0 +1,11 @@
+INSERT INTO car VALUES (1,'Saloon',4,'Honda','City',89000,2010),
+(2,'Red',4,'Toyota','Camry',112500,2011),
+(3,'Yellow',2,'Ferrari','Enzo',560888,2011),
+(4,'Red',2,'Ferrari','F40',998766,1988),
+(6,'Red',2,'Porche','911 Turbo',897500,2004),
+(7,'Black',5,'Toyota','Rush',119700,2007),
+(8,'White',4,'Hyundai','Sonata',76400,2000),
+(9,'Blue',4,'Honda','Civic',120500,2005),
+(10,'Silver',4,'Proton','Waja',45000,2002),
+(11,'White',4,'Proton','Saga',34000,2009),
+(12,'Black',5,'Proton','Persona',62000,2012);
